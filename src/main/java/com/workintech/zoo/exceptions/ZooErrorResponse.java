@@ -51,6 +51,7 @@ public class ZooErrorResponse {
         return Objects.hash(message, status, timestamp);
     }
 
+
     @Override
     public String toString() {
         return "ZooErrorResponse{" +

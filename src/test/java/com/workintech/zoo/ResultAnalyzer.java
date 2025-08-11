@@ -37,6 +37,7 @@ public class ResultAnalyzer implements TestWatcher, AfterAllCallback {
         String userId = "304237";
 
 
+
         String json = String.format(Locale.US,
                 "{\"score\":%.6f,\"taskId\":\"%s\",\"userId\":\"%s\"}",
                 score, taskId, userId);

@@ -10,6 +10,7 @@ public class ZooException extends RuntimeException{
         this.httpStatus = httpStatus;
     }
 
+
     public HttpStatus getHttpStatus() {
         return httpStatus;
     }

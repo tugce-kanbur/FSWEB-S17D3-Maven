@@ -77,6 +77,7 @@ public class Kangaroo {
         Kangaroo kangaroo = (Kangaroo) o;
         return id == kangaroo.id && Double.compare(height, kangaroo.height) == 0 && Double.compare(weight, kangaroo.weight) == 0 && isAggressive == kangaroo.isAggressive && Objects.equals(name, kangaroo.name) && Objects.equals(gender, kangaroo.gender);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(id, name, height, weight, gender, isAggressive);

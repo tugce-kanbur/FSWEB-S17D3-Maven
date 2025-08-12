@@ -31,6 +31,7 @@ public class KoalaController {
             throw new ZooException("Koala with given id is not exist: " + id, HttpStatus.NOT_FOUND);
         }
 
+
         return koalas.get(id);
     }
     @PostMapping

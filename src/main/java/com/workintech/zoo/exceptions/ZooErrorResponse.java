@@ -39,6 +39,7 @@ public class ZooErrorResponse {
         this.timestamp = timestamp;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
